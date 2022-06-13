@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityMVP">
+
+    <EditText
+        android:id="@+id/etpanjang"
+        android:hint="panjang"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/etlebar"
+        android:hint="lebar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btluas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="luas"/>
+    <Button
+        android:id="@+id/btkeliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keliling"/>
+    <TextView
+        android:id="@+id/tvhasil"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/sisi"
+        android:hint="masukkan sisi"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/luaspersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="luaspersegi"/>
+    <Button
+        android:id="@+id/kelilingpersegi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kelilingpersegi"/>
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
